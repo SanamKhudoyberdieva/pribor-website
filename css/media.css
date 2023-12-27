@@ -30,11 +30,13 @@
         display: none;
     }
     .pr-filter-sm,
-    .pr-about-history-img-sm {
+    .pr-about-history-img-sm,
+    .pr-pv-title-sm {
         display: none;
     }
     .pr-category-page-products .pr-btn-light,
-    .pr-vacancy-published-sm {
+    .pr-vacancy-published-sm,
+    .pr-product-view-header-sm {
         display: none;
     }
 }
@@ -51,11 +53,13 @@
         display: none;
     }
     .pr-filter-sm,
-    .pr-about-history-img-sm {
+    .pr-about-history-img-sm,
+    .pr-pv-title-sm {
         display: none;
     }
     .pr-category-page-products .pr-btn-light,
-    .pr-vacancy-published-sm {
+    .pr-vacancy-published-sm,
+    .pr-product-view-header-sm {
         display: none;
     }
 }
@@ -679,4 +683,55 @@
     .pr-team-item:last-child {
         margin-bottom: 0;
     }
+    .pr-product-view-wrp {
+        background-color: inherit;
+        border: none;
+        padding: 0;
+    }
+    .pr-product-view-header-sm {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 4px;
+    }
+    .pr-product-view-header-sm .pr-pv-category {
+        font-size: 1rem;
+    }
+    .pr-product-view-header-sm .pr-btn-heart {
+        padding: 0;
+    }
+    .pr-product-view-header-sm .pr-pv-title {
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 32px;
+        margin-bottom: 24px;
+    }
+    .pr-pv-sm-slick {
+        height: 72px;
+        width: 100%;
+        margin: 0 4px;
+        border: 1px solid #E4E8F4;
+        border-radius: 0.5rem;
+    }
+    .pr-product-view-header {
+        display: none;
+    }
+    .sm-hide {
+        display: none;
+    }
+    .pr-pv-sm-slider {
+        margin-bottom: 32px;
+    }
+    .pr-pv-desc {
+        height: 144px;
+        margin-bottom: 32px;
+        font-size: 14px;
+    }
+    .pr-pv-actions .pr-btn-primary {
+        width: 165px;
+    }
+    .pr-product-view-character {
+        margin-top: 32px;
+        padding: 16px 0 24px 0;
+    }
+    
 }
