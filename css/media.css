@@ -733,5 +733,23 @@
         margin-top: 32px;
         padding: 16px 0 24px 0;
     }
-    
+    .pr-404-content {
+        max-width: auto;
+    }
+    .pr-404-content svg {
+        height: 124px;
+        width: auto;
+    }
+    .pr-404-title {
+        margin-bottom: 16px;
+    }
+    .pr-404-desc {
+        margin-bottom: 16px;
+    }
+    .pr-404-link svg {
+        height: auto;
+    }
+    .pr-404-section {
+        margin: 64px 0;
+    }
 }

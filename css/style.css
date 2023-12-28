@@ -1874,3 +1874,32 @@ button {
 .pr-product-view-similar .pr-section-title {
     margin-bottom: 24px;
 }
+.pr-404-content {
+    max-width: 656px;
+    text-align: center;
+    margin: auto;
+}
+.pr-404-content svg {
+    margin-bottom: 40px;
+}
+.pr-404-title {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 32px;
+    margin-bottom: 12px;
+}
+.pr-404-desc {
+    font-weight: 400;
+    color: var(--black-color-80);
+    margin-bottom: 40px;
+}
+.pr-404-link {
+    width: 210px;
+    margin: auto;
+}
+.pr-404-link svg {
+    margin-bottom: 0;
+}
+.pr-404-section {
+    margin: 120px 0;
+}
