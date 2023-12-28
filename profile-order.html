@@ -199,7 +199,7 @@
             </div>
         </nav>
     </header>
-    <main>
+    <main class="pr-profile-info-sm">
         <nav class="nav pr-secondary-navbar">
             <div class="container">
                 <ul class="navbar-nav">
@@ -227,129 +227,73 @@
                 </ul>
             </div>
         </nav>
-        <section class="pr-profile-section">
+        <div class="container">
+            <nav class="pr-breadcrumb" aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item">
+                        <a href="#">
+                            Главная 
+                            <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1.5 11L6.5 6L1.5 1" stroke="#A2A0B3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="breadcrumb-item active" aria-current="page">Избранное</li>
+                </ol>
+            </nav>
+            <h2 class="pr-section-title">Мои заказы</h2>
+        </div>
+        <section class="pr-profile-order-sm-content">
             <div class="container">
-                <nav class="pr-breadcrumb" aria-label="breadcrumb">
-                    <ol class="breadcrumb">
-                        <li class="breadcrumb-item">
+                <select class="form-select pr-form-select" aria-label="Default select example">
+                    <option selected value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                </select>
+                <div class="pr-nav-profile-inner-list">
+                    <div class="pr-nav-profile-inner-item">
+                        <div class="pr-nav-profile-item-img">
                             <a href="#">
-                                Главная 
-                                <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M1.5 11L6.5 6L1.5 1" stroke="#A2A0B3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                </svg>
+                                <img src="./img//product1.jpg" alt="product">
                             </a>
-                        </li>
-                      <li class="breadcrumb-item active" aria-current="page">Избранное</li>
-                    </ol>
-                </nav>
-                <div class="row">
-                    <h2 class="pr-profile-section-title">Профиль</h2>
-                    <div class="col-md-3">
-                        <div class="pr-profile-nav nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                            <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Персональные данные</button>
-                            <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Мои заказы</button>
-                            <button class="nav-link" id="v-pills-disabled-tab" data-bs-toggle="pill" data-bs-target="#v-pills-disabled" type="button" role="tab" aria-controls="v-pills-disabled" aria-selected="false">Пароль</button>
-                            <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">Выйти</button>
+                        </div>
+                        <div class="pr-nav-profile-item-content">
+                            <div class="pr-profile-item-status pr-canceled">отмененный</div>
+                            <a href="#" class="pr-profile-item-title">Манометры общетехнические ДМ8010-Уф</a>
+                            <div class="pr-profile-item-desc">
+                                Трансформатор тока (ТОЛ)ТЛК-СТ-10-ТЛМ1 (ТЛМ-10-1) опорный, предназначен для передачи сигнала измерительной информации измерительным приборам и устройствам защиты и управления, для изолирования цепей вторичных соединений от высокого напряжения.
+                            </div>
+                            <div class="pr-profile-item-quantity">кол-во: 2</div>
                         </div>
                     </div>
-                    <div class="col-md-9">
-                        <div class="tab-content pr-tab-content" id="v-pills-tabContent">
-                            <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab" tabindex="0">
-                                <h2 class="pr-section-title">Персональные данные</h2>
-                                <div class="pr-tab-content-inner">
-                                    <div class="pr-form-group">
-                                        <label class="form-label">ФИО</label>
-                                        <input type="email" class="form-control" aria-describedby="emailHelp" placeholder="Мухаммаддиёр Рузиев">
-                                    </div>
-                                    <div class="pr-form-group">
-                                        <label class="form-label">Номер телефона</label>
-                                        <input type="email" class="form-control" aria-describedby="emailHelp" placeholder="+998 99 987 65 43">
-                                    </div>
-                                    <div class="pr-form-group">
-                                        <label class="form-label">Email</label>
-                                        <input type="email" class="form-control" aria-describedby="emailHelp" placeholder="sample@gmail.com">
-                                    </div>
-                                    <div class="pr-form-group">
-                                        <label class="form-label">Дата рожденияа</label>
-                                        <input type="email" class="form-control" aria-describedby="emailHelp" placeholder="29/10/1999">
-                                    </div>
-                                    <button class="pr-btn-primary pr-btn-profile">Сохранить профиль</button>
-                                </div>
+                    <div class="pr-nav-profile-inner-item">
+                        <div class="pr-nav-profile-item-img">
+                            <a href="#">
+                                <img src="./img//product1.jpg" alt="product">
+                            </a>
+                        </div>
+                        <div class="pr-nav-profile-item-content">
+                            <div class="pr-profile-item-status pr-active">отмененный</div>
+                            <a href="#" class="pr-profile-item-title">Манометры общетехнические ДМ8010-Уф</a>
+                            <div class="pr-profile-item-desc">
+                                Трансформатор тока (ТОЛ)ТЛК-СТ-10-ТЛМ1 (ТЛМ-10-1) опорный, предназначен для передачи сигнала измерительной информации измерительным приборам и устройствам защиты и управления, для изолирования цепей вторичных соединений от высокого напряжения.
                             </div>
-                            <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab" tabindex="0">
-                                <h2 class="pr-section-title">Мои заказы</h2>
-                                <ul class="nav nav-pills pr-nav-profile-inner" id="pills-tab" role="tablist">
-                                    <li class="nav-item" role="presentation">
-                                      <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Все (6)</button>
-                                    </li>
-                                    <li class="nav-item" role="presentation">
-                                      <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Активный (2)</button>
-                                    </li>
-                                    <li class="nav-item" role="presentation">
-                                      <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">завершенный (3)</button>
-                                    </li>
-                                    <li class="nav-item" role="presentation">
-                                      <button class="nav-link" id="pills-disabled-tab" data-bs-toggle="pill" data-bs-target="#pills-disabled" type="button" role="tab" aria-controls="pills-disabled" aria-selected="false">отмененный (1)</button>
-                                    </li>
-                                </ul>
-                                <div class="tab-content" id="pills-tabContent">
-                                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
-                                        <div class="pr-nav-profile-inner-list">
-                                            <div class="pr-nav-profile-inner-item">
-                                                <div class="pr-nav-profile-item-img">
-                                                    <a href="#">
-                                                        <img src="./img//product1.jpg" alt="product">
-                                                    </a>
-                                                </div>
-                                                <div class="pr-nav-profile-item-content">
-                                                    <div class="pr-profile-item-status pr-canceled">отмененный</div>
-                                                    <a href="#" class="pr-profile-item-title">Манометры общетехнические ДМ8010-Уф</a>
-                                                    <div class="pr-profile-item-desc">
-                                                        Трансформатор тока (ТОЛ)ТЛК-СТ-10-ТЛМ1 (ТЛМ-10-1) опорный, предназначен для передачи сигнала измерительной информации измерительным приборам и устройствам защиты и управления, для изолирования цепей вторичных соединений от высокого напряжения.
-                                                    </div>
-                                                    <div class="pr-profile-item-quantity">кол-во: 2</div>
-                                                </div>
-                                            </div>
-                                            <div class="pr-nav-profile-inner-item">
-                                                <div class="pr-nav-profile-item-img">
-                                                    <a href="#">
-                                                        <img src="./img//product1.jpg" alt="product">
-                                                    </a>
-                                                </div>
-                                                <div class="pr-nav-profile-item-content">
-                                                    <div class="pr-profile-item-status pr-active">отмененный</div>
-                                                    <a href="#" class="pr-profile-item-title">Манометры общетехнические ДМ8010-Уф</a>
-                                                    <div class="pr-profile-item-desc">
-                                                        Трансформатор тока (ТОЛ)ТЛК-СТ-10-ТЛМ1 (ТЛМ-10-1) опорный, предназначен для передачи сигнала измерительной информации измерительным приборам и устройствам защиты и управления, для изолирования цепей вторичных соединений от высокого напряжения.
-                                                    </div>
-                                                    <div class="pr-profile-item-quantity">кол-во: 2</div>
-                                                </div>
-                                            </div>
-                                            <div class="pr-nav-profile-inner-item">
-                                                <div class="pr-nav-profile-item-img">
-                                                    <a href="#">
-                                                        <img src="./img//product1.jpg" alt="product">
-                                                    </a>
-                                                </div>
-                                                <div class="pr-nav-profile-item-content">
-                                                    <div class="pr-profile-item-status pr-completed">отмененный</div>
-                                                    <a href="#" class="pr-profile-item-title">Манометры общетехнические ДМ8010-Уф</a>
-                                                    <div class="pr-profile-item-desc">
-                                                        Трансформатор тока (ТОЛ)ТЛК-СТ-10-ТЛМ1 (ТЛМ-10-1) опорный, предназначен для передачи сигнала измерительной информации измерительным приборам и устройствам защиты и управления, для изолирования цепей вторичных соединений от высокого напряжения.
-                                                    </div>
-                                                    <div class="pr-profile-item-quantity">кол-во: 2</div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">...</div>
-                                    <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">...</div>
-                                    <div class="tab-pane fade" id="pills-disabled" role="tabpanel" aria-labelledby="pills-disabled-tab" tabindex="0">...</div>
-                                </div>
+                            <div class="pr-profile-item-quantity">кол-во: 2</div>
+                        </div>
+                    </div>
+                    <div class="pr-nav-profile-inner-item">
+                        <div class="pr-nav-profile-item-img">
+                            <a href="#">
+                                <img src="./img//product1.jpg" alt="product">
+                            </a>
+                        </div>
+                        <div class="pr-nav-profile-item-content">
+                            <div class="pr-profile-item-status pr-completed">отмененный</div>
+                            <a href="#" class="pr-profile-item-title">Манометры общетехнические ДМ8010-Уф</a>
+                            <div class="pr-profile-item-desc">
+                                Трансформатор тока (ТОЛ)ТЛК-СТ-10-ТЛМ1 (ТЛМ-10-1) опорный, предназначен для передачи сигнала измерительной информации измерительным приборам и устройствам защиты и управления, для изолирования цепей вторичных соединений от высокого напряжения.
                             </div>
-                            <div class="tab-pane fade" id="v-pills-disabled" role="tabpanel" aria-labelledby="v-pills-disabled-tab" tabindex="0">
-                                <h2 class="pr-section-title">Пароль</h2>
-                            </div>
+                            <div class="pr-profile-item-quantity">кол-во: 2</div>
                         </div>
                     </div>
                 </div>

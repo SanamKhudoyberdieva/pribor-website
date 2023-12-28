@@ -752,4 +752,79 @@
     .pr-404-section {
         margin: 64px 0;
     }
+    .pr-profile-nav {
+        border-radius: 0;
+        border: none;
+        background: inherit;
+        padding: 0;
+    }
+    .pr-profile-section .pr-breadcrumb {
+        display: none;
+    }
+    .pr-profile-nav .nav-link {
+        padding: 1rem;
+        border: 1px solid var(--border-color);
+        background: var(--Black-White, #FFF);
+        text-align: start;
+        margin-bottom: 1rem;
+    }
+    .pr-profile-nav .nav-link.active {
+        color: var(--blue-color-100);
+        background-color: var(--white-color-0);
+        border-radius: 8px !important;
+    }
+    .pr-tab-content {
+        display: none;
+    }
+    .pr-profile-section {
+        margin-bottom: 64px;
+    }
+    .pr-profile-info-sm .pr-section-title,
+    .pr-profile-info-sm .breadcrumb {
+        margin-bottom: 24px;
+    }
+    .pr-tab-content-inner {
+        border-radius: 0;
+        border: none;
+        background: inherit;
+        padding: 40px 0px;
+    }
+    .pr-profile-info-sm-content {
+        background-color: var(--white-color-0);
+        border-top: 1px solid var(--border-color);
+        border-bottom: 1px solid var(--border-color);
+        margin-bottom: 64px;
+    }
+    .pr-form-select {
+        margin-bottom: 24px;
+        padding: 0.45rem 2.25rem 0.45rem 0.75rem;
+    }
+    .form-select:focus {
+        border-color: var(--border-color);
+        box-shadow: none;
+    }
+    .pr-nav-profile-item-img img {
+        height: 100px;
+        width: 100px;
+    }
+    .pr-profile-item-status {
+        line-height: 16px;
+    }
+    .pr-profile-item-title {
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 1;
+    }
+    .pr-profile-item-desc {
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        align-self: stretch;
+    }
+    .pr-nav-profile-inner-item {
+        margin-bottom: 32px;
+    }
+    .pr-profile-order-sm-content {
+        margin-bottom: 64px;
+    }
 }

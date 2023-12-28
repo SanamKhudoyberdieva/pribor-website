@@ -1903,3 +1903,121 @@ button {
 .pr-404-section {
     margin: 120px 0;
 }
+.pr-profile-nav {
+    border-radius: 12px;
+    border: 1px solid var(--border-color);
+    background: var(--white-color-0);
+    padding: 16px;
+}
+.pr-profile-nav .nav-link {
+    padding: 8px 12px;
+    border-radius: 8px;
+    width: 100%;
+    text-align: start;
+    margin-bottom: 1rem;
+}
+.pr-profile-nav .nav-link:last-child {
+    margin-bottom: 0;
+}
+.pr-tab-content .pr-section-title {
+    margin-bottom: 24px;
+}
+.pr-tab-content-inner {
+    border-radius: 12px;
+    border: 1px solid var(--border-color);
+    background: var(--white-color-0);
+    padding: 40px;
+}
+.pr-btn-profile {
+    width: 209px;
+    margin-left: auto;
+}
+.pr-tab-content-inner .pr-form-group {
+    margin-bottom: 34px;
+}
+.pr-tab-content-inner .pr-form-group .form-control {
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+    background: #F8F9FC;
+}
+.pr-nav-profile-inner {
+    border-radius: 12px;
+    border: 1px solid var(--border-color);
+    background: var(--white-color-0);
+    padding: 8px;
+    width: max-content;
+    margin-bottom: 16px;
+}
+.pr-nav-profile-inner .nav-link {
+    margin-right: 4px;
+    color: var(--black-color-80);
+    border-radius: 8px !important;
+}
+.pr-nav-profile-inner .nav-item:last-child .nav-link {
+    margin-right: 0;
+}
+.pr-profile-item-status {
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 12px;
+    margin-bottom: 8px;
+    width: max-content;
+}
+.pr-canceled {
+    color: var(--Red-100, #E73127);
+    background: var(--Red-10, #FDEAE9);
+}
+.pr-active {
+    color: var(--blue-color-100);
+    background: var(--blue-color-10);
+}
+.pr-completed {
+    color: #18BF65;
+    background: #D1F2E0;
+}
+.pr-nav-profile-inner-item {
+    display: flex;
+    margin-bottom: 24px;
+}
+.pr-nav-profile-inner-item:last-child {
+    margin-bottom: 0;
+}
+.pr-profile-item-title {
+    color: var(--black-color-100);
+    font-size: 18px;
+    height: 24px;
+    overflow: hidden;
+    margin-bottom: 8px;
+}
+.pr-profile-item-desc {
+    overflow: hidden;
+    height: 48px;
+    color: var(--black-color-60);
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+.pr-profile-item-quantity {
+    font-size: 14px;
+    line-height: 20px;
+}
+.pr-nav-profile-item-img img {
+    height: 145px;
+    width: 145px;
+    border-radius: 12px;
+    border: 1px solid var(--border-color);
+}
+.pr-nav-profile-item-img {
+    margin-right: 8px;
+}
+.pr-profile-section {
+    margin-bottom: 120px;
+}
+.pr-profile-section-title {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 32px; 
+    text-transform: capitalize;
+    margin-bottom: 24px;
+}
