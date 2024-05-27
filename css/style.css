@@ -276,7 +276,6 @@ button {
 .pr-menu-modal-item {
     border-radius: 0.5rem;
     border: 1px solid var(--border-color);
-    padding: 1rem;
     background-color: var(--white-color-0);
     margin-bottom: 1rem;
 }
@@ -285,6 +284,8 @@ button {
 }
 .pr-menu-modal-item a {
     color: var(--black-color-100);
+    padding: 0 !important;
+
 }
 /* Secondary navbar */
 .pr-secondary-navbar {
